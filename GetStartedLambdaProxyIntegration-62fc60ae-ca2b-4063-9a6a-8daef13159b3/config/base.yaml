@@ -1,0 +1,79 @@
+# Teams
+
+# TODO: Remove once all functionality is transitioned to Postgres
+Jack:
+  - Cleveland Browns
+  - Kansas City Chiefs
+  - Los Angeles Chargers
+  - New York Giants
+  - Minnesota Vikings
+  - Green Bay Packers
+  - New Orleans Saints
+  - San Francisco 49ers
+
+
+Jordan:
+  - Detroit Lions
+  - Dallas Cowboys
+  - Miami Dolphins
+  - Baltimore Ravens
+  - Pittsburgh Steelers
+  - Tennessee Titans
+  - Tampa Bay Buccaneers
+  - Atlanta Falcons
+
+
+Patrick:
+  - Cincinnati Bengals
+  - Houston Texans
+  - Denver Broncos
+  - Buffalo Bills
+  - New York Jets
+  - Las Vegas Raiders
+  - Chicago Bears
+  - Arizona Cardinals
+
+Nathan:
+  - New England Patriots
+  - Jacksonville Jaguars
+  - Philadelphia Eagles
+  - Seattle Seahawks
+  - Indianapolis Colts
+  - Carolina Panthers
+  - Washington Commanders
+  - Los Angeles Rams
+
+Responses:
+  - standings
+  - patrick teams
+  - jack teams
+  - jordan teams
+  - nathan teams
+  - all teams
+  - nfl bot help
+  - my teams
+  - standings right now
+
+# Switch this config to False for most of the year - only use at draft time
+draft_enabled: False
+nfl_season_start_date: "09/07/2022"
+owners:
+  - Jack Francis
+  - Jordan Holland
+  - Nathan Lee
+  - Patrick Cooper
+sql_flavor: postgres
+num_teams: 32
+espn_url: https://www.espn.com/nfl/standings/_/season/2022
+season: "2022"
+group_id: "7867099"
+dev_group_id: "59458329"
+custom_draft_order:
+  - "9957374"
+  - "13529310"
+  - "13038894"
+  - "17900487"
+
+# Online App Configs
+test_url: https://nfl-groupme-bot.herokuapp.com
+prod_url: https://nfl-groupme-flask-bot.herokuapp.com
